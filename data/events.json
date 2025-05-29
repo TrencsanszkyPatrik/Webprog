@@ -1,0 +1,256 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "SPRING FEST x Never Say Never",
+      "category": "zene",
+      "date": "2025-05-23",
+      "time": "17:00",
+      "locationId": 6,
+      "description": "Koncert és buli az Egyetemvárosban.",
+      "image": "https://www.hellomiskolc.hu/img2-1-7284-cr-770-449-mc-tp/spring-fest__17454812509342.jpg",
+      "price": "Információ a helyszínen",
+      "organizer": {
+        "id": 6,
+        "name": "Miskolci Egyetem"
+      },
+      "tags": ["zene", "fesztivál", "buli"]
+    },
+    {
+      "id": 2,
+      "title": "Lillafüredi kisvasút napja",
+      "category": "egyeb",
+      "date": "2025-05-24",
+      "time": "09:30",
+      "locationId": 7,
+      "description": "Különvonatokkal a ritkán járt Mahóca szárnyvonalra – a lillafüredi kisvasút napján is!",
+      "image": "https://erdeiprogramok.hu/wp-content/uploads/2016/11/lillafured_szinok_gabor.jpg",
+      "price": "Információ a helyszínen",
+      "organizer": {
+        "id": 7,
+        "name": "hellomiskolc.hu"
+      },
+      "tags": ["család", "közlekedés", "kirándulás"]
+    },
+    {
+      "id": 3,
+      "title": "Éjszakai fürdőzés az Ellipsumban",
+      "category": "sport",
+      "date": "2025-05-24",
+      "time": "20:30",
+      "locationId": 8,
+      "description": "Élvezd a termálvíz éltető energiáját Ellipsum Summer Splash hangulatban!",
+      "image": "https://ellipsumfurdo.hu/sites/default/files/2022-07/image-ejszakai-furdozes-3.png",
+      "price": "Információ a helyszínen",
+      "organizer": {
+        "id": 8,
+        "name": "Ellipsum Élmény- és Strandfürdő"
+      },
+      "tags": ["fürdőzés", "éjszakai", "szórakozás"]
+    },
+    {
+      "id": 4,
+      "title": "Gyermeknap Miskolc 2025",
+      "category": "csalad",
+      "date": "2025-05-25",
+      "time": "10:00",
+      "locationId": 9,
+      "description": "Gyerekprogramok, interaktív játszóház, népi játszóház, sportprogramok, vidámpark, ugrálóvár, kézműves foglalkozások és még sok színes program várja a kicsiket és nagyokat.",
+      "image": "https://miskolcikultkozpont.hu/storage/images/program/og/og-691-34566.jpg",
+      "price": "Ingyenes",
+      "organizer": {
+        "id": 9,
+        "name": "Miskolc Megyei JogÚ Város Önkormányzata"
+      },
+      "tags": ["gyermek", "család", "ingyenes"]
+    },
+    {
+      "id": 5,
+      "title": "Rómeó és Júlia Musical",
+      "category": "szinhaz",
+      "date": "2025-05-24",
+      "time": "19:00",
+      "locationId": 4,
+      "description": "A világirodalom egyik legnagyszerűbb szerelmes műve musical formájában.",
+      "image": "https://mnsz.hu/glideimg/dramas/782/f26d011f-bfdb-4a40-aa36-b85a624125a0.jpg?w=1116&h=416&fit=crop",
+      "price": "3 500 Ft-tól",
+      "organizer": {
+        "id": 4,
+        "name": "Miskolci Nemzeti Színház"
+      },
+      "tags": ["színház", "musical", "előadás"]
+    },
+    {
+      "id": 6,
+      "title": "Jazz Inside Band koncert",
+      "category": "zene",
+      "date": "2025-05-23",
+      "time": "19:00",
+      "locationId": 10,
+      "description": "Igényes jazz muzsika a MÜHA Kávézóban.",
+      "image": "https://pb2.jegy.hu/imgs/system-4/program/000/145/229/jazz-inside-band-koncert-vendeg-pocsai-kriszta-enekes-original-208429.jpg",
+      "price": "2 000 Ft",
+      "organizer": {
+        "id": 10,
+        "name": "Művészetek Háza"
+      },
+      "tags": ["zene", "jazz", "koncert"]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "zene",
+      "displayName": "Zene",
+      "icon": "music-note"
+    },
+    {
+      "id": 2,
+      "name": "kiallitas",
+      "displayName": "Kiállítás",
+      "icon": "image"
+    },
+    {
+      "id": 3,
+      "name": "sport",
+      "displayName": "Sport",
+      "icon": "trophy"
+    },
+    {
+      "id": 4,
+      "name": "szinhaz",
+      "displayName": "Színház",
+      "icon": "journal-bookmark-fill"
+    },
+    {
+      "id": 5,
+      "name": "film",
+      "displayName": "Film",
+      "icon": "film"
+    },
+    {
+      "id": 6,
+      "name": "csalad",
+      "displayName": "Családi",
+      "icon": "people"
+    },
+    {
+      "id": 7,
+      "name": "egyeb",
+      "displayName": "Egyéb",
+      "icon": "calendar-event"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Miskolci Kongresszusi Központ",
+      "address": "Hősök tere 1.",
+      "coordinates": {
+        "lat": 48.1033,
+        "lng": 20.7786
+      },
+      "capacity": 1200,
+      "facilities": ["konferenciaterem", "hangosítás", "világítás", "klímázott"]
+    },
+    {
+      "id": 2,
+      "name": "Herman Ottó Múzeum",
+      "address": "Görgey Artúr utca 28.",
+      "coordinates": {
+        "lat": 48.1034,
+        "lng": 20.7787
+      },
+      "capacity": 300,
+      "facilities": ["kiállítóterem", "klímázott", "lift", "akadálymentes"]
+    },
+    {
+      "id": 3,
+      "name": "DVTK Stadion",
+      "address": "Városi Stadion utca 1.",
+      "coordinates": {
+        "lat": 48.1035,
+        "lng": 20.7788
+      },
+      "capacity": 15000,
+      "facilities": ["futópálya", "öltözők", "tribün", "parkoló"]
+    },
+    {
+      "id": 4,
+      "name": "Miskolci Nemzeti Színház",
+      "address": "Színház tér 1.",
+      "coordinates": {
+        "lat": 48.1036,
+        "lng": 20.7789
+      },
+      "capacity": 800,
+      "facilities": ["színházterem", "klímázott", "akadálymentes", "bár"]
+    },
+    {
+      "id": 5,
+      "name": "Művészetek Háza",
+      "address": "Széchenyi utca 7.",
+      "coordinates": {
+        "lat": 48.1037,
+        "lng": 20.7790
+      },
+      "capacity": 400,
+      "facilities": ["mozi", "klímázott", "akadálymentes", "kávézó"]
+    },
+    {
+      "id": 6,
+      "name": "Egyetemi díszalula",
+      "address": "Egyetemváros",
+      "coordinates": {
+        "lat": 48.1048,
+        "lng": 20.7507
+      },
+      "capacity": null,
+      "facilities": []
+    },
+    {
+      "id": 7,
+      "name": "Lillafüred",
+      "address": "Lillafüred",
+      "coordinates": {
+        "lat": 48.096,
+        "lng": 20.629
+      },
+      "capacity": null,
+      "facilities": ["kisvasút"]
+    },
+    {
+      "id": 8,
+      "name": "Ellipsum Élmény- és Strandfürdő",
+      "address": "Csabai kapu 9-11.",
+      "coordinates": {
+        "lat": 48.0831,
+        "lng": 20.7741
+      },
+      "capacity": null,
+      "facilities": ["termálvíz", "strand"]
+    },
+    {
+      "id": 9,
+      "name": "Népkert",
+      "address": "Népkert, Miskolc",
+      "coordinates": {
+        "lat": 48.097,
+        "lng": 20.788
+      },
+      "capacity": null,
+      "facilities": ["játszótér", "park", "szabadtéri"]
+    },
+    {
+      "id": 10,
+      "name": "Művészetek Háza Kávézó",
+      "address": "Széchenyi utca 7.",
+      "coordinates": {
+        "lat": 48.1037,
+        "lng": 20.7790
+      },
+      "capacity": null,
+      "facilities": ["kávézó", "hangosítás"]
+    }
+  ]
+} 
