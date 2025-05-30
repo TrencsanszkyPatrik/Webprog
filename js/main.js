@@ -12,6 +12,7 @@ async function loadData() {
 async function filterEventsByCategory(category) {
     const data = await loadData();
     if (data) {
+        //osszes vagy kategoria szerinti gombok
         const filteredEvents = category === 'all' 
             ? data.events 
             : data.events.filter(event => event.category === category);
@@ -19,16 +20,18 @@ async function filterEventsByCategory(category) {
     }
 }
 
+//keresomezo
 function setupSearch() {
     const searchForm = document.querySelector('form');
     const searchInput = searchForm.querySelector('input');
 
     searchForm.addEventListener('submit', async (e) => {
         e.preventDefault();
-        const searchTerm = searchInput.value.toLowerCase();
+        const searchTerm = searchInput.value.toLowerCase(); //kisbetusit
         const data = await loadData();
         
         if (data) {
+            //vizsgalja a cimet, leirast, es a tageket
             const filteredEvents = data.events.filter(event => 
                 event.title.toLowerCase().includes(searchTerm) ||
                 event.description.toLowerCase().includes(searchTerm) ||
@@ -43,8 +46,10 @@ function updateUI(events, categories) {
     displayEvents(events, categories);
 }
 
+//Kategoriagombok megjelenitese
 function displayCategories(categories) {
     const categoriesContainer = document.getElementById('categories');
+    //eloszor az osszesgomb
     categoriesContainer.innerHTML = `
         <div class="col-6 col-sm-4 col-md-3 col-lg-1">
             <div class="card category-card text-center p-7" data-category="all">
