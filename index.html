@@ -18,24 +18,24 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Főoldal</a>
+                        <a class="nav-link active" href="#top">Főoldal</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Események</a>
+                        <a class="nav-link" href="#kategoriak">Kategóriák</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kategóriák</a>
+                        <a class="nav-link" href="#esemenyek">Események</a>
                     </li>
                 </ul>
-                <form class="d-flex">
+                <form class="d-flex" onsubmit="handleSearch(event)">
                     <input class="form-control me-2" type="search" placeholder="Keresés...">
-                    <button class="btn btn-outline-light" type="submit">Keresés</button>
+                    <button class="btn btn-outline-light" type="submit">Keresés.</button>
                 </form>
             </div>
         </div>
     </nav>
 
-    <section class="hero-section bg-dark text-light py-5">
+    <section class="hero-section bg-dark text-light py-5" id="top">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7">
@@ -51,13 +51,13 @@
     </section>
 
     <main class="container my-4">
-        <section class="mb-4">
+        <section class="mb-4" id="kategoriak">
             <h2>Kategóriák</h2>
             <div class="row g-4" id="categories">
             </div>
         </section>
 
-        <section class="mb-4">
+        <section class="mb-4" id="esemenyek">
             <h2>Közelgő események</h2>
             <div class="row g-4" id="upcoming-events">
 

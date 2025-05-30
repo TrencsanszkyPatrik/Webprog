@@ -95,6 +95,22 @@
         "name": "Művészetek Háza"
       },
       "tags": ["zene", "jazz", "koncert"]
+    },
+    {
+      "id": 7,
+      "title": "Régiségvásár a belvárosban",
+      "category": "egyeb",
+      "date": "2025-06-01",
+      "time": "10:00",
+      "locationId": 1,
+      "description": "Találj kincsekre minden hónap első vasárnapján Miskolc belvárosában!.",
+      "image": "https://www.hellomiskolc.hu/img2-1-7635-cr-570-240-mc-tp/regisegvasar__17320980507913.jpg",
+      "price": "Ingyenes",
+      "organizer": {
+        "id": 11,
+        "name": "Miskolc városa"
+      },
+      "tags": ["régiség", "vásár", "ingyenes"]
     }
   ],
   "categories": [
@@ -139,6 +155,12 @@
       "name": "egyeb",
       "displayName": "Egyéb",
       "icon": "calendar-event"
+    },
+    {
+      "id": 8,
+      "name": "közlekedés",
+      "displayName": "Közlekedés",
+      "icon": "airplane"
     }
   ],
   "locations": [
@@ -251,6 +273,17 @@
       },
       "capacity": null,
       "facilities": ["kávézó", "hangosítás"]
+    },
+    {
+      "id": 11,
+      "name": "Miskolc városa",
+      "address": "Miskolc belvárosa",
+      "coordinates": {
+        "lat": 48.1037,
+        "lng": 20.7790
+      },
+      "capacity": null,
+      "facilities": ["ingyenes"]
     }
   ]
 } 
